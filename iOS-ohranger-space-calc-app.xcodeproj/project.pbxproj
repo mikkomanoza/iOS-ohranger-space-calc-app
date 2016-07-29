@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843A853A1D4A2BD8008F6E54 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843A85391D4A2BD8008F6E54 /* Minecraft.ttf */; };
 		844F6DF31D49E609001CB1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F6DF21D49E609001CB1D4 /* AppDelegate.swift */; };
 		844F6DF51D49E609001CB1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F6DF41D49E609001CB1D4 /* ViewController.swift */; };
 		844F6DF81D49E609001CB1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F6DF61D49E609001CB1D4 /* Main.storyboard */; };
 		844F6DFA1D49E609001CB1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844F6DF91D49E609001CB1D4 /* Assets.xcassets */; };
 		844F6DFD1D49E609001CB1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F6DFB1D49E609001CB1D4 /* LaunchScreen.storyboard */; };
+		845B4B3E1D4A4E92009B0A2A /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 845B4B3D1D4A4E92009B0A2A /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843A85391D4A2BD8008F6E54 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = ../Minecraft.ttf; sourceTree = "<group>"; };
 		844F6DEF1D49E609001CB1D4 /* iOS-ohranger-space-calc-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ohranger-space-calc-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844F6DF21D49E609001CB1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844F6DF41D49E609001CB1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		844F6DF91D49E609001CB1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844F6DFC1D49E609001CB1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844F6DFE1D49E609001CB1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845B4B3D1D4A4E92009B0A2A /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		844F6DF11D49E609001CB1D4 /* iOS-ohranger-space-calc-app */ = {
 			isa = PBXGroup;
 			children = (
+				845B4B3D1D4A4E92009B0A2A /* btn.wav */,
+				843A85391D4A2BD8008F6E54 /* Minecraft.ttf */,
 				844F6DF21D49E609001CB1D4 /* AppDelegate.swift */,
 				844F6DF41D49E609001CB1D4 /* ViewController.swift */,
 				844F6DF61D49E609001CB1D4 /* Main.storyboard */,
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845B4B3E1D4A4E92009B0A2A /* btn.wav in Resources */,
 				844F6DFD1D49E609001CB1D4 /* LaunchScreen.storyboard in Resources */,
 				844F6DFA1D49E609001CB1D4 /* Assets.xcassets in Resources */,
+				843A853A1D4A2BD8008F6E54 /* Minecraft.ttf in Resources */,
 				844F6DF81D49E609001CB1D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.teamohrange.apps.iOS-ohranger-space-calc-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -264,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.teamohrange.apps.iOS-ohranger-space-calc-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +296,7 @@
 				844F6E031D49E609001CB1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
